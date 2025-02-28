@@ -21,9 +21,9 @@ PLEASE READ paths.md FOR INFORMATION TO HOW TO SET THIS UP
 # nnUNet_raw = os.environ.get('nnUNet_raw')
 # nnUNet_preprocessed = os.environ.get('nnUNet_preprocessed')
 # nnUNet_results = os.environ.get('nnUNet_results')
-nnUNet_raw = 'E:\\nnUNet\dataset\\nnUNet_raw'
-nnUNet_preprocessed = 'E:\\nnUNet\dataset\\nnUNet_preprocessedd'
-nnUNet_results = 'E:\\nnUNet\dataset\\nnUNet_results'
+nnUNet_raw = 'D:\\Haopeng deng\\nnUNet\\dataset\\nnUNet_raw'
+nnUNet_preprocessed = 'D:\\Haopeng deng\\nnUNet\dataset\\nnUNet_preprocessed'
+nnUNet_results = 'D:\\Haopeng deng\\nnUNet\\dataset\\nnUNet_results'
 
 if nnUNet_raw is None:
     print("nnUNet_raw is not defined and nnU-Net can only be used on data for which preprocessed files "
